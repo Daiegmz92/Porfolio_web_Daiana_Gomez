@@ -441,3 +441,29 @@ header {
         transform: translateY(0);
     }
 }
+
+/* Estilo base para el avatar */
+.profile-avatar {
+    width: 180px; /* Ajustá el tamaño que prefieras */
+    height: 180px;
+    border-radius: 50%; /* Esto lo hace redondo */
+    border: 3px solid #00f2fe; /* Un borde color neón (ajustalo a tu paleta) */
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.4); /* Un brillo sutil alrededor */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+
+    /* ACÁ ESTÁ LA MAGIA DE LA ANIMACIÓN */
+    animation: flotar 3s ease-in-out infinite;
+}
+
+/* Definición de la animación de "flotado" */
+@keyframes flotar {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px); /* Se mueve 10px hacia arriba */
+    }
+    100% {
+        transform: translateY(0px); /* Vuelve a bajar */
+    }
+}
