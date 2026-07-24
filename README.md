@@ -1,4 +1,4 @@
-**# Portfolio Daiana Elizabeth Gomez
+# Portfolio Daiana Elizabeth Gomez
 
 🔗 **[Ver sitio en vivo](https://daiana-elizabeth-gomez-portfolio.netlify.app/)**
 
